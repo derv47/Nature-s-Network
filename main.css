@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 50px;
+    align-items: center;
+}
+.logo {
+    color: #4CAF4F;
+    font-family: Noto Sans Georgian;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+.optionBlock {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.option {
+    color: #4D4D4D;
+    font-family: Noto Sans Georgian;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+.reg {
+    text-decoration: none;
+    display: flex;
+    width: 178px;
+    height: 48px;
+    padding: 15px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: Noto Sans Georgian;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 2px;
+    background: #4CAF4F;
+    outline:none;
+    border:none;
+    transition: all 0.3s;
+
+}
+.reg:hover {
+    background-color: #3e8240;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.wellcome {
+    background-color: #4CAF4F;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#name {
+    padding: 0px 5px;
+}
+/* header end */
+
+
+main {
+    width:100vw;
+}
+.hero {
+    display: flex;
+    width: 1280px;
+    height: 90vh;
+    padding: 164px 187px;
+    align-items: center;
+    gap: 10px;
+}
+.textPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.heroTitle {
+    color: #4D4D4D;
+    font-family: Noto Sans Georgian;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.heroSubTitle {
+    color: #4D4D4D;
+    font-family: Noto Sans Georgian;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.coins {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px 10px;
+    background: #F5F7FA;
+    height: 48px;
+    gap:5px;
+    border-radius:2px 0px 0px 2px;
+
+}
+.coins span{
+    color:#4CAF4F;
+    font-family: Noto Sans Georgian;
+    font-weight: 500;
+    font-size: 20px;
+}
+#coins {
+    width: 4vh;
+    height: 4vh;
+}
+
+
+/* hero end */
+
+
+.info {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px 50px;
+    align-items: center;
+    gap: 73px;
+    background: #F5F7FA;
+    justify-content: center;
+}
+.Info-textPart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+    width: 546px;
+}
+.InfoTitle {
+    color: #4D4D4D;
+    font-family: Noto Sans Georgian;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal
+}
+.InfoSubTitle {
+    color: #4D4D4D;
+    font-family: Noto Sans Georgian;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+/* info end */
+
+
+.GreenCoin {
+    display: flex;
+    width: 1280px;
+    height: auto;
+    padding: 50px 50px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.Coin-textPart {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.25);
+}
+.CoinTitle {
+    color: #4D4D4D;
+    font-family: Noto Sans Georgian;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.CoinSubTitle {
+    color: #4D4D4D;
+    font-family: Noto Sans Georgian;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 428px;
+}
+.GreenCoin img {
+    width: 350px;
+}
+
+.companyBlock {
+    display: flex;
+    width: 1280px;
+    padding: 30px 0px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: auto;
+    text-decoration:none;
+
+}
+.company {
+    display: flex;
+    width: 600px;
+    height: 200px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration:none;
+
+
+}
+.CimgPart {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+}
+.CimgPart img {
+    height: 90%;
+}
+.CompanyTextPart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    text-decoration:none;
+
+}
+.CompanyTitle {
+    color: #4D4D4D;
+    font-family: Noto Sans Georgian;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration:none;
+
+}
+.CompanySubTitle {
+    color: #4D4D4D;
+    font-family: Noto Sans Georgian;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 344px;
+    text-decoration:none;
+}
+
+/* green end */
+
+
+.progress {
+    display: flex;
+    width: 1280px;
+    height: 720px;
+    padding: 0px 100px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.ProTextPart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 555px;
+}
+.ProTitle {
+    color: #4D4D4D;
+    font-family: Noto Sans Georgian;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+progress {
+    width: 400px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #FFF;
+    color:white;
+    /* box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+progress::-webkit-progress-bar {
+    width: 400px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #FFF;
+    color:white;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.25);
+    padding:5px 2px;
+}
+progress::-webkit-progress-value {
+    border-radius: 50px;
+} 
+.proResult {
+    color: #4D4D4D;
+    font-family: Noto Sans Georgian;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.IMG {
+    width: 400px;
+}
